@@ -1,0 +1,141 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+
+  
+input[type=text], input[type=password], textarea {  
+  width: 40%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1>Register Here</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="5" required />  
+<br  
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="5"required />   
+<br>
+<div>  
+<label>   
+Tourist City :  
+</label>   
+  
+<select>
+<option value="City">City</option>   
+ <option value="Agra">Agra</option>  
+<option value="Delhi">Delhi</option>  
+<option value="Kashmir">Kashmir</option>
+<option value="Rajasthan">Rajasthan</option>  
+<option value="Hyderabad">Hyderabad</option>  
+<option value="Bangalore">Bangalore</option>  
+<option value="Chennai">Chennai</option>  
+</select>  
+</div>  
+<label>   
+Number of Adults:  
+</label>   
+  
+<select>  
+<option value="No of Adults:">No of Adults</option>
+<option value="1">1</option>  
+<option value="2">2</option>  
+<option value="3">3</option> 
+  <option value="4">4</option>  
+<option value="5">5</option>  
+<option value="6">6</option>
+<option value="7">7</option>  
+<option value="8">8</option>  
+<option value="9">9</option>  
+<option value="0">0</option>  
+</select>  
+<label>   
+Number of Children:  
+</label>   
+  
+<select>  
+<option value="No of Children:">No of Children</option>
+<option value="1">1</option>  
+<option value="2">2</option>  
+<option value="3">3</option> 
+  <option value="4">4</option>  
+<option value="5">5</option>  
+<option value="6">6</option>
+<option value="7">7</option>  
+<option value="8">8</option>  
+<option value="9">9</option>  
+<option value="0">0</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   <br> 
+<input type="radio" value="Female" name="gender"> Female   <br> 
+<input type="radio" value="Other" name="gender"> Other  <br> 
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="12"/>  <br>  
+  
+<br>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  <br>  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  <br>  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+<br> 
+Comments :  
+<textarea cols="5" rows="3" placeholder="Current Address" value="address" required>  
+</textarea>
+
+<br>  
+<br>    
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
